@@ -1,0 +1,142 @@
+header{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 200px;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-size: 300px;
+}
+body {
+    background-image: url(./img/mun1.jpg);
+    
+}
+h2{
+    text-align: center;
+    color:rgb(2, 42, 83);
+    font-style:oblique;
+    font-size:120px;
+}
+p{
+    text-align: center;
+    color:rgb(18, 91, 163);
+    font-style: italic;
+    font-size:90px;
+}
+.entry{
+    background-color:rgb(255, 255, 255);
+     width: 25%;
+     margin-right:auto;
+    margin-left: auto;
+     margin-top: 5%;
+     margin-bottom: 10%;
+    padding: 200px;
+    max-width: 75%;
+
+}
+.one {
+    background-color:rgb(255, 255, 255);
+     width: 100%;
+     margin-right:auto;
+    margin-left: auto;
+     padding:250px;
+    max-width: 100%;
+       
+    }
+.two {
+    background-color:rgb(255, 255, 255);
+     width: 100%;
+     margin-right:auto;
+    margin-left: auto;
+     padding:250px;
+    max-width: 100%;
+           
+    }
+form {
+    width: 100%;
+    max-width: 850px;
+    min-width: 300px;
+    margin-right:auto;
+    margin-left: auto;
+    padding-bottom: 2em;
+}
+      
+label {
+    display: block;
+    font-size: 100px;
+    color: rgb(247, 248, 249);
+}
+input,textarea {
+    margin: 10px;
+    width: 100%;
+    font-size: 80px;
+    min-height: 2em;
+    min-width: 17em;
+}
+      
+input, textarea {
+    background-color: #fcfcfe;
+    border: 1px solid #ffffff;
+    color: #000000;
+}
+input[type="submit"] {
+    display:block;
+    font-size: 50px;
+    color: #fcfcfe;
+    background-color:rgb(29, 95, 210);
+    border-color: white;
+    min-width: 1400px;
+    min-height: 200px;
+}
+.image {
+    position: relative;
+    width: 40000px;
+}
+.image__overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 12%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-size: 100px;    
+
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay--primary {
+    background: #5d9dbd;
+}
+.image__overlay:hover {
+    opacity: 1;
+}
+.image__title {
+    font-size: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.5em;
+}
+h3{
+    color:#ffffff;
+    font-size: 100px;
+}
+.insta{
+   max-width: 200px;
+}
+.fb{
+    max-width: 200px;
+}
+.link{
+    max-width: 200px;
+}
+ th,td {
+    border: 1px solid black;
+    padding: 50px;
+    background-color: #ffffff;
+    font-size: 75px;
+ }

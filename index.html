@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device width initial scale=1.0">
+        <title>MUN by IBC MANIT</title>
+        <link href="style1.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="https://ibcmanit.com/">IBC MANIT</a>
+            <h3>presents</h3>
+            <h1>MODEL UNITED NATIONS(MUN)</h1>
+        </header>
+        <div class="entry">
+        <section>
+            <h2>About</h2>
+            <p>It's an event whereby students had a debate over international issues and a discussion about some of the important international affairs.
+                They get to experience professionalism in debating and how it is done at such prestigious and high level.
+                </p>
+        </section>
+        </div> 
+        <div class="one">
+            <div class="image">
+        <section>
+            <img class="image__img" src="https://ibcmanit.com/assets/events/mun/_MG_2974.JPG">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.yqEICKLaZIZlgSWiBylnuwHaHa&pid=Api&P=0">
+            <img src="https://ibcmanit.com/assets/events/mun/IMG_2980.JPG">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.yqEICKLaZIZlgSWiBylnuwHaHa&pid=Api&P=0">
+            <img src="https://ibcmanit.com/assets/events/mun/IMG_1686.JPG">
+            <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Pictures of</div>
+                <p class="image__description">
+                    Students actively participating in the event
+                </p>
+            </div>
+            </div>
+            <p>
+                It was done in two rounds in two consecutive weeks.The preliminary round was conducted on the first weekend,
+                 wherein the students were evaluated through different comprehensive but arduous competitions. The selected candidates were given 
+                 a training session.  
+            </p>
+           
+        </section>
+       </div>
+       <section>
+        <h2>More Info</h2>
+       </section>
+       <div class="two">
+        <div class="image">
+       <section>
+           <img class="image_img" src="https://ibcmanit.com/assets/events/mun/IMG_2981.JPG">
+           <img src="https://tse4.mm.bing.net/th?id=OIP.yqEICKLaZIZlgSWiBylnuwHaHa&pid=Api&P=0">
+           <img src="https://ibcmanit.com/assets/events/mun/IMG_1832.JPG">
+           <img src="https://tse4.mm.bing.net/th?id=OIP.yqEICKLaZIZlgSWiBylnuwHaHa&pid=Api&P=0">
+           <img src="https://ibcmanit.com/assets/events/mun/IMG_1780.JPG">
+           <div class="image__overlay image__overlay--primary">
+            <div class="image__title">Pictures of</div>
+            <p class="image__description">
+                Students actively participating in the event
+            </p>
+         </div>
+         </div>
+            <p>
+                The MUN conference was conducted on the following weekend where the agendas were decided to be,
+                "Effect of Industries Powered by Fossil Fuels on Global Climate" and "Increasing Number of Refugee Crises all across the Globe".
+                All the delegates gave their best and presented their ideas and discussed appropriately.
+            </p>
+
+       </section>
+       </div>
+       <section>
+        <h2>Registration form</h2>
+        <div class="container">
+            <form method="POST" name="sample">
+            <br>
+            
+                <input type="text" name="name" placeholder="Enter Name">
+                <input type="email" name="email" placeholder="Enter Email">
+                <input type="number" name="schno" placeholder="Enter Scholar No.">
+                <input type="text" name="branch" placeholder="Enter Branch">
+                <input type="number" name="contact" placeholder="Enter Contact No.">
+                <br><br>
+                <input type="button" name="add" value="Submit" onclick="addStudent();" class="btn btn-success"><hr>
+            
+                        <table id="tbl" class="table" border="1">
+                            <thead>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Scholar No.</th>
+                            <th>Branch</th>
+                            <th>Contact No.</th>
+                           
+                            </thead>
+                            
+                             <tbody>
+                                 
+                             </tbody>
+                         </table>
+            
+            </form>
+            
+             <script type="text/javascript">
+                   
+                function addStudent()
+                { 
+                    var name=document.sample.name.value; 
+                    var email=document.sample.email.value;
+                    var schno=document.sample.schno.value;
+                    var branch=document.sample.branch.value;
+                    var contact=document.sample.contact.value;
+            
+                    var tr = document.createElement('tr');
+                    
+                    var td2 = tr.appendChild(document.createElement('td'));
+                    var td3 = tr.appendChild(document.createElement('td'));
+                    var td4 = tr.appendChild(document.createElement('td'));
+                    var td5 = tr.appendChild(document.createElement('td'));
+                    var td6 = tr.appendChild(document.createElement('td'));
+            
+                    td2.innerHTML=name;
+                    td3.innerHTML=email;
+                    td4.innerHTML=schno;
+                    td5.innerHTML=branch;
+                    td6.innerHTML=contact;
+            
+                    document.getElementById("tbl").appendChild(tr);
+                }
+                
+               </script>
+            </div>
+    </section>
+    <section>
+        <h3>Contact Us:</h3>
+        <a href="https://www.instagram.com/ibc_manit/"><img class="insta" src="./img/insta.jpg"></a>
+        <a href="https://www.facebook.com/ibcManit16"><img class="fb" src="./img/fb.jpg" ></a>
+        <a href="https://www.linkedin.com/in/intellect-browsers-consortium-manit-378b001a7/"><img class="link" src="./img/link.jpg" ></a>
+    </section>
+    </body>
+</html>
